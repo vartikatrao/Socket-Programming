@@ -7,13 +7,13 @@ A socket program, where the client sends content of file and server sends the nu
 ### Server:
 Compile Server and execute: 
 ```shell
-gcc -o ser fileserver.c
+gcc fileserver.c –o ser
 ./ser
 ```
 ### Client:
 Compile Client and execute: 
 ```shell
-gcc -o cli fileclient.c
+gcc fileclient.c –o ser
 ./cli
 ```
 Output: 
